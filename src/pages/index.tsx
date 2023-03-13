@@ -23,6 +23,7 @@ import tailwind from "../../public/assets/images/tailwind-css.svg"
 
 import { Container } from "../styles/main.styles";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -54,12 +55,14 @@ export default function Home() {
                 o que era, chegando em casa, pensei na unica solução, que até o momento nunca tinha feito, formatar o celular,
                 não sabia como funciona e quais seriam as consequências, mas fiz e deu certo, então ai já me despertou em mexer
                 em configurações do celular,computadores etc...
-                <p>
-                  &nbsp;&nbsp; Alguns anos depois troquei de celular, então vi um vídeo no YouTube na qual ensina a fazer umas configurações
-                  mais avançadas que necessitava de acesso root, depois de um tempo consegui fazer mas depois meu celular reiniciou e apareceu
-                  a tela do "android morto" então fiz uma pesquisa e descobri que tinha que reinstalar o android, então fiz alguns pesquisa e consegui
-                  resolver meu problema.
-                </p>
+              </p>
+              <p>
+                &nbsp;&nbsp; Alguns anos depois troquei de celular, então vi um vídeo no YouTube na qual ensina a fazer umas configurações
+                mais avançadas que necessitava de acesso root, depois de um tempo consegui fazer mas depois meu celular reiniciou e apareceu
+                a tela do "android morto" então fiz uma pesquisa e descobri que tinha que reinstalar o android, então fiz alguns pesquisa e consegui
+                resolver meu problema.
+              </p>
+              <p>
                 &nbsp;&nbsp; Meu primeiro contato com a programação foi em 2018, quando fiz um curso profissionalizante de informática, na qual aprendi
                 manutenção básica de computadores, linguagem de programação Csharp(usando aplicação console e windows forms) e SQL com MySql. Desde então
                 sempre venho estudando programação, sempre que posso reforçando a base.
@@ -150,6 +153,99 @@ export default function Home() {
                 <Image src={docker} alt="HTML5" width={100} height={100} />
                 <p>JavaScript</p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div id={"projects"}>
+          <div className={"title"}>
+            <h2>Projetos</h2>
+          </div>
+
+          <div id={"group-projects"}>
+            <div className={"project"}>
+              <div className={"project-title"}>
+                <h3>Projeto 1</h3>
+              </div>
+              <div className={"project-techs"}>
+                <p>html5,css3</p>
+              </div>
+              <div className={"project-description"}>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorum.
+                </p>
+              </div>
+            </div>
+
+            <div className={"project"}>
+              <div className={"project-title"}>
+                <h3>Projeto 1</h3>
+              </div>
+              <div className={"project-techs"}>
+                <p>html5,css3</p>
+              </div>
+              <div className={"project-description"}>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorum.
+                </p>
+              </div>
+            </div>
+
+            <div className={"project"}>
+              <div className={"project-title"}>
+                <h3>Projeto 1</h3>
+              </div>
+              <div className={"project-techs"}>
+                <p>html5,css3</p>
+              </div>
+              <div className={"project-description"}>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorum.
+                </p>
+              </div>
+            </div>
+
+            <div className={"project"}>
+              <div className={"project-title"}>
+                <h3>Projeto 1</h3>
+              </div>
+              <div className={"project-techs"}>
+                <p>html5,css3</p>
+              </div>
+              <div className={"project-description"}>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorum.
+                </p>
+              </div>
+            </div>
+
+            <div className={"project"}>
+              <div className={"project-title"}>
+                <h3>Projeto 1</h3>
+              </div>
+              <div className={"project-techs"}>
+                <p>html5,css3</p>
+              </div>
+              <div className={"project-description"}>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorum.
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div id={"contact"}>
+          <div className={"title"}>
+            <h2>Contato</h2>
+          </div>
+          <div className={"contact"}>
+            <div className={"contact-info"}>
+              <ul>
+                <li><p>Email: <a href="mailto:matheus.rj25@hotmail.com">matheus.rj25@hotmail.com</a></p></li>
+                <li><p>LinkedIn: <a href="#">Meu LinkedIn</a></p></li>
+                <li><p>Meu currículo: <a href="/assets/download/MatheusRodrigues.pdf" target="_blank" rel="noopener noreferrer">Clique aqui </a></p></li>
+              </ul>
             </div>
           </div>
         </div>
