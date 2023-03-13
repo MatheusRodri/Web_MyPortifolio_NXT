@@ -243,7 +243,7 @@ export const Container = styled.main`
   }
   #contact{
       background-color: #02266A;
-      height: 35vh;
+      height: 40vh;
       padding: 0 50px;
 
       .contact-info{
@@ -257,4 +257,23 @@ export const Container = styled.main`
         }
       }
     }
+
+  @media (max-width: 768px){
+    #about-me{
+      height: 340vh;
+    }
+    #me{
+      display:flex;
+      flex-direction: column;
+    }
+    #image-me{
+      margin-top: 20px;
+    }
+    #skills{
+      height: 130vh;
+    }
+    #projects{
+      height: 100vh;
+    }
+  }
 `;

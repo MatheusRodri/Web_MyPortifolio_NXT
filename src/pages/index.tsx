@@ -24,11 +24,18 @@ import tailwind from "../../public/assets/images/tailwind-css.svg"
 import { Container } from "../styles/main.styles";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { MenuMobile } from "src/components/MenuMobile";
 
 export default function Home() {
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
   return (
     <>
-      <Header />
+      <MenuMobile
+        menuIsVisible={menuIsVisible}
+        setMenuIsVisible={setMenuIsVisible}
+      />
+      <Header setMenuIsVisible={setMenuIsVisible}/>
       <Container>
         <div id={"first-content"}>
           <p>Olá sou o <span>Matheus Rodrigues</span> futuro desenvolvedor Full-Stack</p>

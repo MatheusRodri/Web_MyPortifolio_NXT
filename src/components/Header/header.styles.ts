@@ -23,4 +23,17 @@ export const Container = styled.header`
             text-decoration: none;
         }
     }
+
+    section{
+        display:none;
+    }
+
+    @media (max-width: 768px){
+        ul{
+            display: none;
+        }
+        section{
+            display: flex;
+        }
+    }
 `;
