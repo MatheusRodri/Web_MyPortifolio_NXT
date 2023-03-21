@@ -10,9 +10,9 @@ export function Header({setMenuIsVisible}){
             <Image src={Logo} alt={"Logo M"} width={65} height={65}/>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="#first-content">Home</a></li>
                     <li><a href="#about-me">Sobre</a></li>
-                    <li><a href='#skills'>Experiencia</a></li>
+                    <li><a href="#skills">Experiência</a></li>
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#contact">Contato</a></li>
                 </ul>

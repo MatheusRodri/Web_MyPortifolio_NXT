@@ -11,12 +11,12 @@ export const Container = styled.main`
     width: 100%;
     font-size: 2rem;
     color: white;
-    padding: 20px 0;
+    padding: 6rem 0 30px 0;
   }
   
   #first-content {
     background-color: #02266A;
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     color: white;
     display: flex;
@@ -36,7 +36,7 @@ export const Container = styled.main`
 
   #about-me {
     background-color: #063780;
-    height: 120vh;
+    height: 130vh;
     padding: 0 50px;
 
     #me {
@@ -56,7 +56,7 @@ export const Container = styled.main`
       align-items: center;
     }
   }
-  #skills {
+  #skills{
     background-color: #02266A;
     height: 150vh;
     color: white;
@@ -243,14 +243,19 @@ export const Container = styled.main`
   }
   #contact{
       background-color: #02266A;
-      height: 40vh;
+      height: 50vh;
       padding: 0 50px;
+
+      .title{
+        padding: 20px 0;
+      }
 
       .contact-info{
         li{
           padding: 5px 0;
           list-style: none;
           color: white;
+          font-size: 1.5rem;
         }
         a{
           color: white;

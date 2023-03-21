@@ -7,7 +7,19 @@ export const Container = styled.footer`
     position: fixed;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 30px;
+
+    ul{
+        display: flex;
+        list-style: none;
+        
+        li{
+            padding: 0 20px;
+        }
+        a{
+            color: white;
+        }
+    }
 `;

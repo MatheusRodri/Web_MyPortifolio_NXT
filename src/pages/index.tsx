@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <div id={"skills"}>
           <div className={"title"}>
-            <h2>Experiencia</h2>
+            <h2>Experiência</h2>
           </div>
           <div id={"skill"}>
             <div id={"group-skills"}>
@@ -122,43 +122,43 @@ export default function Home() {
               </div>
               <div className={"sc"}>
                 <Image src={sc} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>Styled Component</p>
               </div>
               <div className={"dart"}>
                 <Image src={dart} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>Dart</p>
               </div>
               <div className={"flutter"}>
                 <Image src={flutter} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>Flutter</p>
               </div>
               <div className={"kotlin"}>
                 <Image src={kotlin} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>Kotlin</p>
               </div>
               <div className={"git"}>
                 <Image src={git} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>Git</p>
               </div>
               <div className={"github"}>
                 <Image src={github} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>GitHub</p>
               </div>
               <div className={"sql"}>
                 <Image src={sql} alt="HTML5" width={100} height={100} />
-                <p>sql</p>
+                <p>SQL</p>
               </div>
               <div className={"csharp"}>
                 <Image src={charp} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>CSharp</p>
               </div>
               <div className={"dotnet"}>
                 <Image src={dotnet} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>DotNet</p>
               </div>
               <div className={"docker"}>
                 <Image src={docker} alt="HTML5" width={100} height={100} />
-                <p>JavaScript</p>
+                <p>Docker</p>
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ export default function Home() {
           <div id={"group-projects"}>
             <div className={"project"}>
               <div className={"project-title"}>
-                <h3>Projeto 1</h3>
+                <h3>Java</h3>
               </div>
               <div className={"project-techs"}>
                 <p>html5,css3</p>
