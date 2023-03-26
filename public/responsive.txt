@@ -1,0 +1,16 @@
+#about-me{
+      
+    }
+    #me{
+      display:flex;
+      flex-direction: column;
+    }
+    #image-me{
+      margin-top: 20px;
+    }
+    #skills{
+      height: 130vh;
+    }
+    #projects{
+      height: 100vh;
+    }

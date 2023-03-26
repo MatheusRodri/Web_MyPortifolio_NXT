@@ -14,48 +14,6 @@ export const Container = styled.main`
     padding: 6rem 0 30px 0;
   }
   
-  #first-content {
-    background-color: #02266A;
-    height: 50vh;
-    width: 100%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    p {
-      font-size: 2rem;
-      span {
-        display: block;
-        font-size: 2.5rem;
-        font-weight: bold;
-      }
-    }
-  }
-
-  #about-me {
-    background-color: #063780;
-    height: 130vh;
-    padding: 0 50px;
-
-    #me {
-      display: flex;
-    }
-
-    #text-me {
-      font-size: 1.5rem;
-      text-align: justify;
-      padding-right: 30px;
-      color: white;
-    }
-
-    #image-me {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
   #skills{
     background-color: #02266A;
     height: 150vh;
@@ -241,27 +199,7 @@ export const Container = styled.main`
       margin: 20px;
     }
   }
-  #contact{
-      background-color: #02266A;
-      height: 50vh;
-      padding: 0 50px;
-
-      .title{
-        padding: 20px 0;
-      }
-
-      .contact-info{
-        li{
-          padding: 5px 0;
-          list-style: none;
-          color: white;
-          font-size: 1.5rem;
-        }
-        a{
-          color: white;
-        }
-      }
-    }
+  
 
   @media (max-width: 768px){
     #about-me{
