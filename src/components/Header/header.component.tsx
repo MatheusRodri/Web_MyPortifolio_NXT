@@ -1,5 +1,5 @@
 import {Container} from './header.styles';
-import Logo from '../../../public/assets/images/logoM.svg'
+import Logo from 'public/assets/images/logoM.svg'
 import Image from 'next/image';
 import {FiSettings} from 'react-icons/fi'
 import {RiMenu3Fill} from 'react-icons/ri'
