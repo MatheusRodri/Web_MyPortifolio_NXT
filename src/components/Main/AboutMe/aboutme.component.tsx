@@ -1,17 +1,21 @@
 import { AboutMeContainer } from "./aboutme.styled";
 import Image from "next/image";
-import MyPhoto from "../../../../public/assets/images/me.jpg"
+import MyPhoto from "public/assets/images/me.jpg"
 
-export default function AboutMe() {
+export default function AboutMe({id}) {
+
+    const date = new Date();
+    const myYearsOld = date.getFullYear() - 2002;
+
     return (
-        <AboutMeContainer>
+        <AboutMeContainer id={id}>
             <div className={"title"}>
                 <h2>Sobre mim</h2>
             </div>
             <div id={"me"}>
                 <div id={"text-me"}>
                     <p>
-                        &nbsp;&nbsp; Meu nome é Matheus Rodrigues, tenho 20 anos e vou usar essa parte para falar um pouco
+                        &nbsp;&nbsp; Meu nome é Matheus Rodrigues, tenho {myYearsOld} anos e vou usar essa parte para falar um pouco
                         sobre mim.
                     </p>
                     <p>

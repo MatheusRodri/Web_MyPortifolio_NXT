@@ -1,8 +1,8 @@
 import { ContactContainer } from "./contact.styed";
 
-export default function Contact() {
+export default function Contact({id}) {
     return (
-        <ContactContainer>
+        <ContactContainer id={id}>
             <div className={"title"}>
                 <h2>Contato</h2>
             </div>
